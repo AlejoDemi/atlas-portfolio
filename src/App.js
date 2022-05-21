@@ -24,15 +24,17 @@ function App() {
     });
 
   return (
-      isDesktop?
-       timer?
-           <Spinner></Spinner>
-           :
-            <Canvas></Canvas>
-
-
+      timer?
+          <Spinner></Spinner>
           :
-          <CanvasMobile></CanvasMobile>
+            isDesktop?
+                <Canvas></Canvas>
+
+           : <CanvasMobile></CanvasMobile>
+
+
+
+
   );
 }
 
