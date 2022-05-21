@@ -4,15 +4,16 @@ import AboutUs from "../../AboutUs/AboutUs";
 import ContactUs from "../../ContactUs/ContactUs";
 import "./CanvasMobile.css"
 import {ParticlesStars} from "../../Canvas/Particles";
+import logo from '../../../assets/Canvas/logo.png';
 
 const CanvasMobile = () => {
 
     return (
-        <div style={{width:"100%",background:"lightgray",height:"410vh",display:"flex",justifyContent:"center",textAlign:"center"}}>
+        <div style={{width:"100%",background:"lightgray",height:"360vh",display:"flex",justifyContent:"center",textAlign:"center"}}>
             <div >
                 <ParticlesStars></ParticlesStars>
-                <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"1"}}>
-
+                <div className={"headerMobile"} style={{position:"relative",height:"50vh",zIndex:"1"}}>
+                    <img className={"logo"} src={logo}/>
                 </div>
                 <div style={{height:"210vh"}}>
                     <AboutUs></AboutUs>

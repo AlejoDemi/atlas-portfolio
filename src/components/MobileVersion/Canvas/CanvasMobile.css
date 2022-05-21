@@ -5,9 +5,9 @@
     align-content: center;
     margin: auto;
     background: none;
-    background-size: cover;
 }
 
 .headerMobile .logo{
-
+    width: 300px;
+    height: 300px;
 }

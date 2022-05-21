@@ -49,15 +49,17 @@ const Canvas = () => {
                 <div style={{background:"#000723"}}></div>
             </ParallaxLayer>
 
+            <ParallaxLayer speed={0.35} offset={1.8} style={{background:"#000723"}}>
+                <div style={{background:"#000723"}}></div>
+            </ParallaxLayer>
+
             <ParallaxLayer speed={0.3} offset={0.9}>
                 <section id="scrollIcon" >
                     <scrollIcon/>
                 </section>
             </ParallaxLayer>
 
-            <ParallaxLayer speed={0} offset={1} style={{"background":"#000723"}}>
-                <h1 className={"slogan"}>MOVING THE WORLD<div style={{"color": "#E392BE", "fontStyle":"italic"}}> FORWARD.</div></h1>
-            </ParallaxLayer>
+
 
             <ParallaxLayer sticky={{start:0,end:2.3}} >
                 <Header goToContact={()=>ref.current.scrollTo(4)}
@@ -66,7 +68,7 @@ const Canvas = () => {
             </ParallaxLayer>
 
 
-            <ParallaxLayer id="whoWeAre" offset={1.3} >
+            <ParallaxLayer id="whoWeAre" offset={1} >
                 <PageBinder></PageBinder>
             </ParallaxLayer>
         </Parallax>

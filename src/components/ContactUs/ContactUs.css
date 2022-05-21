@@ -1,7 +1,7 @@
 .contactUsBox{
     height: 60vh;
     width: 40vw;
-    margin: 0 auto auto auto;
+    margin: auto;
     border:5px solid white;
     border-radius: 20px;
     min-width: 300px;
@@ -60,6 +60,7 @@
     display: flex;
     justify-content: center;
     padding: 10px;
+    width: 90%;
 }
 
 .formButtonContainer .button{
@@ -89,7 +90,7 @@
 
 @media (max-width :900px) {
     .contactUsBox{
-        min-width: 80%;
+        min-width: 80vw;
     }
 }
 
