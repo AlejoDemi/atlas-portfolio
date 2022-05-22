@@ -1,4 +1,4 @@
-.container{
+.aboutUsContainer{
     width: 100%;
     height: 100%;
     display: flex;
@@ -9,9 +9,10 @@
     position: relative;
     z-index: 1;
     background:#000723;
+    margin: auto;
 }
 
-.container .title{
+.aboutUsContainer .title{
     margin: auto;
     font-size: 300%;
     color: white;
@@ -19,8 +20,8 @@
 }
 
 
-.container .text{
-    height: 60%;
+.aboutUsContainer .text{
+    height: 90%;
     width: 80%;
     margin: 0 auto 0 auto;
     text-align: center;
@@ -31,29 +32,17 @@
     color: white;
 }
 
-.container .techList{
-    display: grid;
-    width: 70%;
-    height: 30%;
-    margin: 5px auto 10px auto;
-    grid-template-columns: repeat(5,10fr);
-    justify-items: center;
-}
 
-.techList img{
-    height: 70px;
-    width: 70px;
-}
 
 @media (max-width: 900px) {
 
-    .container{
+    .aboutUsContainer{
         width: 100vw;
         margin: auto;
         background:none;
     }
 
-    .container .title{
+    .aboutUsContainer .title{
         color: white;
     }
 
@@ -72,20 +61,10 @@
         width: 0;
     }
 
-    .container .techList{
-        display: grid;
-        grid-template-columns: repeat(4,1fr );
-    }
-
 
     .text p{
         font-size: 100%;
         color: white;
-    }
-
-    .techList img{
-        height: 60px;
-        width: 60px;
     }
 }
 
