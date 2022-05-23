@@ -19,14 +19,14 @@ const CanvasMobile = () => {
                     <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"1",background:"#000723"}}>
                         <img className={"logo"} src={logo}/>
                     </div>
-                    <div style={{height:"90vh",background:"deeppink",position:"relative",zIndex:1,opacity:0.9}}>
+                    <div style={{height:"90vh",position:"relative",zIndex:1,opacity:0.9}}>
                         <AboutUs></AboutUs>
 
                     </div>
-                    <div style={{height:"80vh",background:"wheat",position:"relative",zIndex:1,opacity:0.9}}>
+                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.9}}>
                         <Techs></Techs>
                     </div>
-                    <div style={{height:"100vh",display:"flex",justifyContent:"center",background:"darkblue",position:"relative",zIndex:1,opacity:0.9}}>
+                    <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.9}}>
                         <ContactUs></ContactUs>
 
                     </div>
