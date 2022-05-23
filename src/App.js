@@ -9,7 +9,7 @@ function App() {
   const [timer, setTimer] = useState(true);
 
   useEffect(()=>{
-    setTimeout(()=>setTimer(false),2000)
+    setTimeout(()=>setTimer(false),2500)
   },[])
 
   const [isDesktop, setDesktop] = useState(window.innerWidth > 900);
