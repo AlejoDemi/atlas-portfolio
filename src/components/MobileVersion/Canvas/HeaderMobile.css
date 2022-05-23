@@ -7,8 +7,8 @@
     height: 20%;
     width: 50%;
     margin: 0 auto 0 auto;
-    filter:brightness(10%);
-    transition: 10s;
+    filter:brightness(0%);
+    transition: 3s;
 }
 
 .headerMobile .logoBright{
@@ -16,7 +16,7 @@
     width: 50%;
     margin: 0 auto 0 auto;
     filter:brightness(150%);
-    transition: 2s;
+    transition: 3s;
 }
 
 .headerMobile .slogan{

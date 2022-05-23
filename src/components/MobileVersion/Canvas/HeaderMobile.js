@@ -12,9 +12,8 @@ const HeaderMobile = () => {
 
 
     const toggleBrightness=()=>{
-        setTimeout(()=>setBright(!bright),2000)
+        setTimeout(()=>setBright(true),1500)
     }
-    toggleBrightness();
 
     return (
         <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"1"}}>
