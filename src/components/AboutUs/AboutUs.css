@@ -22,7 +22,7 @@
 
 .aboutUsContainer .text{
     height: 90%;
-    width: 80%;
+    width: 50%;
     margin: 0 auto 0 auto;
     text-align: center;
 }
@@ -47,7 +47,7 @@
     }
 
 
-    .horizontal .text{
+    .aboutUsContainer .text{
         width: 100%;
         height: 100%;
     }
@@ -69,6 +69,12 @@
 }
 
 @media (max-width: 450px) {
+
+    .aboutUsContainer .text{
+        width: 90%;
+        height: 100%;
+    }
+
     .text p{
         font-size: 100%;
     }

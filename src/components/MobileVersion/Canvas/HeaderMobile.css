@@ -1,0 +1,30 @@
+.headerMobile{
+    width: 100%;
+    margin: 0 auto auto auto;
+}
+
+.headerMobile .logo{
+    height: 20%;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    filter:brightness(10%);
+    transition: 2s;
+}
+
+.headerMobile .logoBright{
+    height: 20%;
+    width: 50%;
+    margin: 0 auto 0 auto;
+    filter:brightness(150%);
+    transition: 2s;
+}
+
+.headerMobile .slogan{
+    font-family: "Fira Sans", sans-serif;
+    font-size:300% ;
+    color: white;
+    text-align: center;
+    transform: skewY(-5deg);
+    font-weight: bold;
+
+}
