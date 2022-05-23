@@ -12,14 +12,14 @@ const CanvasMobile = () => {
     return (
 
         <div >
-            <div className={"navbar"}></div>
-            <div style={{width:"100%",background:"none",height:"360vh",display:"flex",justifyContent:"center",textAlign:"center"}}>
+            <div style={{width:"100%",background:"none",height:"400vh",display:"flex",justifyContent:"center",textAlign:"center"}}>
                 <ParticlesStars></ParticlesStars>
                 <div >
-                    <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"1",background:"#000723"}}>
-                        <img className={"logo"} src={logo}/>
+                    <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"1"}}>
+                        <img src={logo} className={"logo"}/>
+                        <div className={"slogan"}>MOVING THE WORLD</div><div style={{color:"#FFB4D8",fontStyle:"italic"}} className={"slogan"}>FORWARD.</div>
                     </div>
-                    <div style={{height:"90vh",position:"relative",zIndex:1,opacity:0.9}}>
+                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.9}}>
                         <AboutUs></AboutUs>
 
                     </div>

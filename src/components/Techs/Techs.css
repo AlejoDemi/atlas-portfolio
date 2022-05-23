@@ -34,4 +34,9 @@
     .techsContainer .techList{
         width: 100%;
     }
+
+    .techList .item{
+        max-height: 15px;
+        max-width: 15px;
+    }
 }

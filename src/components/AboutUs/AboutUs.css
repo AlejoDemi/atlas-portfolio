@@ -28,7 +28,7 @@
 }
 
 .text p{
-    font-size: 18px;
+    font-size: 130%;
     color: white;
 }
 
@@ -63,13 +63,13 @@
 
 
     .text p{
-        font-size: 15px;
+        font-size: 160%;
         color: white;
     }
 }
 
 @media (max-width: 450px) {
     .text p{
-        font-size: 80%;
+        font-size: 100%;
     }
 }
