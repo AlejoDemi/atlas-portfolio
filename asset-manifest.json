@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/atlas-portfolio/static/css/main.afc5f76b.css",
-    "main.js": "/atlas-portfolio/static/js/main.955ea32e.js",
+    "main.js": "/atlas-portfolio/static/js/main.1b0fa512.js",
     "static/js/937.315529ac.chunk.js": "/atlas-portfolio/static/js/937.315529ac.chunk.js",
     "static/js/787.99456852.chunk.js": "/atlas-portfolio/static/js/787.99456852.chunk.js",
     "static/media/layer1-icon.svg": "/atlas-portfolio/static/media/layer1-icon.bcfee550a3cde1d4980f620572a821b1.svg",
@@ -33,12 +33,12 @@
     "static/media/html-1.svg": "/atlas-portfolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/javascript-1.svg": "/atlas-portfolio/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
     "main.afc5f76b.css.map": "/atlas-portfolio/static/css/main.afc5f76b.css.map",
-    "main.955ea32e.js.map": "/atlas-portfolio/static/js/main.955ea32e.js.map",
+    "main.1b0fa512.js.map": "/atlas-portfolio/static/js/main.1b0fa512.js.map",
     "937.315529ac.chunk.js.map": "/atlas-portfolio/static/js/937.315529ac.chunk.js.map",
     "787.99456852.chunk.js.map": "/atlas-portfolio/static/js/787.99456852.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.afc5f76b.css",
-    "static/js/main.955ea32e.js"
+    "static/js/main.1b0fa512.js"
   ]
 }
