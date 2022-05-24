@@ -10,7 +10,7 @@
 
 .logoDiv .logo{
     filter:brightness(0%);
-    transition: 3s;
+    transition: 2s;
     height: 100%;
     width: 100%;
 }
