@@ -28,15 +28,6 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className={"card"}>
-                    <div className={"image"}>
-                        <img src={"https://www.iconpacks.net/icons/2/free-target-and-goal-icon-2852-thumb.png"}/>
-                    </div>
-                    <div className={"p"}>
-                        <p>Our goal is to cater for the needs of our clients, for we believe that together, we will make the world move forward. </p>
-                    </div>
-                </div>
-
                 <div className={"card1"} >
                     <div className={"image"}>
                         <img src={"https://cdn2.iconfinder.com/data/icons/elections-linear-black/2048/4552_-_Award-512.png"}/>
@@ -46,6 +37,17 @@ const AboutUs = () => {
                             We seek to fully unleash the power of new, innovative technologies, along with the stability provided by fundamental classics. </p>
                     </div>
                 </div>
+
+                <div className={"card"}>
+                    <div className={"image"}>
+                        <img src={"https://www.iconpacks.net/icons/2/free-target-and-goal-icon-2852-thumb.png"}/>
+                    </div>
+                    <div className={"p"}>
+                        <p>Our goal is to cater for the needs of our clients, for we believe that together, we will make the world move forward. </p>
+                    </div>
+                </div>
+
+
             </div>
 
         </div>

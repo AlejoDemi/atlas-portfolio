@@ -21,11 +21,11 @@ const CanvasMobile = () => {
                 <ParticlesStars></ParticlesStars>
                 <div >
                     <HeaderMobile></HeaderMobile>
-                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95, background:"#706E90"}}>
+                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95, background:"#464564"}}>
                         <AboutUs></AboutUs>
 
                     </div>
-                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95, background:"#464564"}}>
+                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95,  background:"#706E90"}}>
                         <Techs></Techs>
                     </div>
                     <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.95, background:"#1E1F3B"}}>
