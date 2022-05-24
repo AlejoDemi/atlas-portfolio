@@ -117,6 +117,8 @@
 
 @media (max-width :900px) {
     .contactUsBox{
+        width:90%;
+        height: 80%;
         min-width: 80vw;
         flex-direction: column;
     }
