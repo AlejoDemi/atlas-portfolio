@@ -4,8 +4,6 @@
 }
 
 .headerMobile .logoDiv{
-    height: 30vh;
-    width: 80%;
     object-fit: contain;
     margin: auto;
 }
