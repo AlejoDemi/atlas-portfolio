@@ -37,7 +37,7 @@ const AboutUs = () => {
                     </div>
                 </div>
 
-                <div className={"card"} >
+                <div className={"card1"} >
                     <div className={"image"}>
                         <img src={"https://cdn2.iconfinder.com/data/icons/elections-linear-black/2048/4552_-_Award-512.png"}/>
                     </div>
