@@ -3,20 +3,25 @@
     margin: 0 auto auto auto;
 }
 
-.headerMobile .logo{
-    height: 20%;
-    width: 100%;
-    object-fit: cover;
-    filter:brightness(0%);
-    transition: 3s;
+.headerMobile .logoDiv{
+    height: 30vh;
+    width: 80%;
+    object-fit: contain;
+    margin: auto;
 }
 
-.headerMobile .logoBright{
-    width: 100%;
-    height: 20%;
-    object-fit: cover;
-    filter:brightness(150%);
+.logoDiv .logo{
+    filter:brightness(0%);
     transition: 3s;
+    height: 100%;
+    width: 100%;
+}
+
+.logoDiv .logoBright{
+    filter:brightness(150%);
+    transition: 2s;
+    height: 100%;
+    width: 100%;
 }
 
 .headerMobile .slogan{

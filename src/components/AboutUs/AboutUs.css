@@ -22,13 +22,13 @@
 
 .aboutUsContainer .text{
     height: 90%;
-    width: 50%;
+    width: 60%;
     margin: 0 auto 0 auto;
     text-align: center;
 }
 
 .text p{
-    font-size: 130%;
+    font-size: 125%;
     color: white;
 }
 
@@ -48,7 +48,7 @@
 
 
     .aboutUsContainer .text{
-        width: 100%;
+        width: 80%;
         height: 100%;
     }
 
