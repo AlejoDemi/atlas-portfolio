@@ -3,7 +3,7 @@ import logo from "../../../assets/Canvas/logo.png";
 import "./HeaderMobile.css"
 
 const HeaderMobile = () => {
-    const [bright ,setBright] = useState(false);
+    const [bright ,setBright] = useState(true);
 
     useEffect(() => {
         toggleBrightness()
