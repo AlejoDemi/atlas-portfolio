@@ -21,14 +21,14 @@ const CanvasMobile = () => {
                 <ParticlesStars></ParticlesStars>
                 <div >
                     <HeaderMobile></HeaderMobile>
-                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.9, background:"#2F305E"}}>
+                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95, background:"#706E90"}}>
                         <AboutUs></AboutUs>
 
                     </div>
-                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.9}}>
+                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95, background:"#464564"}}>
                         <Techs></Techs>
                     </div>
-                    <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.9}}>
+                    <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.95, background:"#1E1F3B"}}>
                         <ContactUs></ContactUs>
 
                     </div>

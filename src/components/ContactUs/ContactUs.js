@@ -46,30 +46,38 @@ const ContactUs = (effect, deps) => {
 
   return (
           <div className={"contactUsBox"} style={{zIndex:"1"}} >
-              <h1 className={"title"}>CONTACT US</h1>
-              <form ref={form} onSubmit={sendEmail} className={"form"}>
-                  <div className={"text"}>
-                      <input name = "user_name" className={"input"} style={{color:showError && fullName===""?"red":"white" }} type="text" placeholder={"Full Name (*)"} onChange={e=>setFullName(e.target.value)}/>
-                      <input name = "user_email" className={"input"} style={{color:showError && email===""?"red":"white" }} type="email" placeholder={"Email (*)"} onChange={e=>setEmail(e.target.value)}/>
-                      <input name = "user_phone" className={"input"}  type="text" placeholder={"Phone"} onChange={e=>setPhone(e.target.value)}/>
-                      <textarea name = "message" className={"input"} style={{color:showError && message===""?"red":"white",height:"80px" }}  placeholder={"Message (*)"} onChange={e=>setMessage(e.target.value)}/>
+              <div className={"left"}>
+                  <div className={"title"}>
+                    <h1>CONTACT <br/> US</h1>
                   </div>
-                  <div className={"formButtonContainer"}>
-                      <input type="submit" value="Send" className={"button"} />
+              <div className={"message"}>
+                 {loading?
+                     <PacmanLoader  color={"#E392BE"}  size={20} />:
+                     showError?
+                         <span style={{color:"red"}}>You must complete all the obligatory fields (*)</span> :
+                         showSuccess?<span style={{color:"#78D2AB"}}>Thanks for choosing us, we will contact you as soon as possible!</span>:
+                             null}
+             </div>
 
-                  </div>
-              </form>
-
-              <div style={{margin:"auto",display:"flex",justifyContent:"center",alignContent:"center",textAlign:"center"}}>
-                  {loading?
-                      <PacmanLoader  color={"#E392BE"}  size={20} />:
-                      showError?
-                          <h3 style={{color:"red"}}>You must complete all the obligatory fields (*)</h3> :
-                          showSuccess?<h3 style={{color:"green"}}>Thanks for choosing us, we will contact you as soon as possible!</h3>:
-                              null}
               </div>
+              <form ref={form} onSubmit={sendEmail} className={"form"}>
+                 <div className={"text"}>
+                     <input name = "user_name" className={"input"} style={{color:showError && fullName===""?"red":"white" }} type="text" placeholder={"Full Name (*)"} onChange={e=>setFullName(e.target.value)}/>
+                     <input name = "user_email" className={"input"} style={{color:showError && email===""?"red":"white" }} type="email" placeholder={"Email (*)"} onChange={e=>setEmail(e.target.value)}/>
+                     <input name = "user_phone" className={"input"}  type="text" placeholder={"Phone"} onChange={e=>setPhone(e.target.value)}/>
+                     <textarea name = "message" className={"input"} style={{color:showError && message===""?"red":"white",height:"80px" }}  placeholder={"Message (*)"} onChange={e=>setMessage(e.target.value)}/>
+                 </div>
+                 <div className={"formButtonContainer"}>
+                     <input type="submit" value="SEND" className={"button"} />
+
+                 </div>
+             </form>
           </div>
 
 );
 };
 export default ContactUs;
+
+
+//<h1 className={"title"}>CONTACT US</h1>
+//              

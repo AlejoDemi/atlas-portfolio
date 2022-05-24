@@ -1,8 +1,9 @@
 .contactUsBox{
+    display:flex;
+    flex-direction:row;
     height: 60vh;
     width: 40vw;
     margin: auto;
-    border:5px solid white;
     border-radius: 20px;
     min-width: 300px;
     min-height: 300px;
@@ -12,21 +13,46 @@
 ;
 }
 
-.contactUsBox .title{
-    height: 10%;
+.contactUsBox .left{
+    height: 100%;
+    width: 50%;
     display: flex;
+    text-align: center;
     justify-content: center;
-    color: white;
+    color: #FFB4D8;
+    flex-direction: column;
 }
 
+.left .message{
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    text-align: center;
+    width:60%;
+    height:70%;
+    font-size: 20px;
+}
+
+.contactUsBox .title{
+    height:30%;
+    margin: auto;
+    
+}
+
+
+
 .title h1{
-    font-size: 100%;
+    font-size: 200%;
+    align-self: flex-start;
 }
 
 .contactUsBox .form{
     display: flex;
     flex-direction: column;
-    height:90% ;
+    height:100% ;
+    width: 50%;
+    background: none;
 }
 
 .form .text{
@@ -64,24 +90,25 @@
 }
 
 .formButtonContainer .button{
-    font-size: 100%;
-    border: 3px solid white;
-    border-radius: 10px;
-    background:#041223 ;
-    color: white;
+    font-size: 120%;
+    background: none;
+    border: none;
+    color: #FFB4D8;
     width: 15%;
     min-width: 60px;
     margin: auto;
     height: 80%;
     cursor: pointer;
     text-align: center;
+    font-weight: bold;
 
 }
 
 
 .formButtonContainer .button:hover{
-    background:white ;
-    color: #001027;
+    background:none ;
+    color: white;
+    border: none;
 }
 
 .contactUsBox .state{
@@ -91,6 +118,17 @@
 @media (max-width :900px) {
     .contactUsBox{
         min-width: 80vw;
+        flex-direction: column;
+    }
+    .contactUsBox .title{
+        width: 100%;
+        height: 15%;
+        font-size: 80%;
+    }
+
+    .contactUsBox .form{
+        width:100%;
+        height:85%;
     }
 }
 
