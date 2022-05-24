@@ -13,27 +13,33 @@ const ContactUs = (effect, deps) => {
     const [showError , setShowError] = useState(false);
     const [showSuccess , setShowSuccess] = useState(false);
     const [loading , setLoading] = useState(false);
+    const [sent , setSent] = useState(false);
 
 
     const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    setLoading(true)
-    if (fullName!=="" && email!=="" && message!==""){
-        emailjs.sendForm('service_y521b0g', 'template_20sozcf', form.current, 'wX92O6_gcyV1wAX7j')
-            .then((result) => {
-                setLoading(false)
-                setShowError(false)
-               setShowSuccess(true)
+    if (!sent){
+        setLoading(true)
+        if (fullName!=="" && email!=="" && message!==""){
+            emailjs.sendForm('service_y521b0g', 'template_20sozcf', form.current, 'wX92O6_gcyV1wAX7j')
+                .then((result) => {
+                    setSent(true)
+                    setLoading(false)
+                    setShowError(false)
+                    setShowSuccess(true)
 
-            }, (error) => {
-                console.log(error.text);
-            });
-    }
-    else {
-        setLoading(false)
-        setShowError(true);
+                }, (error) => {
+                    console.log(error.text);
+                });
+        }
+        else {
+            setSent(false)
+            setLoading(false)
+            setShowError(true);
+        }
+
     }
 
   };
