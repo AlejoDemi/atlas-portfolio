@@ -12,8 +12,8 @@ const HeaderMobile = () => {
 
 
     const toggleBrightness=()=>{
-        bright? setTimeout(()=>setBright(false),5000)
-            : setTimeout(()=>setBright(true),2000)
+        bright? setTimeout(()=>setBright(false),6000)
+            : setTimeout(()=>setBright(true),3000)
     }
 
     return (
