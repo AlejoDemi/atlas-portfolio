@@ -71,7 +71,7 @@
         width: 100vw;
         margin: auto;
         background:none;
-        overflow: hidden;
+        overflow: scroll;
     }
 
     .aboutUsContainer .title{
@@ -92,6 +92,7 @@
         width: 80%;
         height: 26%;
         flex-direction: column;
+        overflow: scroll;
 
     }
 
