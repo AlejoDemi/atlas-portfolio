@@ -88,17 +88,17 @@
     }
 
     .text .card{
-        margin: 0;
+        margin: auto;
         width: 80%;
-        height: 30%;
+        height: 26%;
         flex-direction: column;
 
     }
 
     .text .card1{
-        margin: 0;
+        margin: auto;
         width: 80%;
-        height: 40%;
+        height: 48%;
         flex-direction: column;
 
     }
