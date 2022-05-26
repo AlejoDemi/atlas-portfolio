@@ -12,6 +12,7 @@ function App() {
     setTimeout(()=>setTimer(false),2500)
   },[])
 
+
   const [isDesktop, setDesktop] = useState(window.innerWidth > 900);
 
     const updateMedia = () => {
@@ -27,7 +28,7 @@ function App() {
       timer?
           <Spinner></Spinner>
           :
-            isDesktop?
+            isDesktop || window.innerHeight<window.innerWidth?
                 <Canvas></Canvas>
 
            : <CanvasMobile></CanvasMobile>
