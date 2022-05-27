@@ -23,6 +23,11 @@ const HeaderMobile = () => {
             </div>
 
             <div className={"slogan"}>MOVING THE WORLD</div><div style={{color:"#FFB4D8",fontStyle:"italic"}} className={"slogan"}>FORWARD.</div>
+
+            <section className={"icon"} id={"scrollIcon"} >
+                <scrollIcon/>
+            </section>
+
         </div>
     );
 };

@@ -3,6 +3,7 @@ import Canvas from "./components/Canvas/Canvas";
 import {useEffect, useState} from "react";
 import CanvasMobile from "./components/MobileVersion/Canvas/CanvasMobile";
 import {PacmanLoader} from "react-spinners";
+import RotatePhone from "./components/MobileVersion/RotatePhone/RotatePhone";
 
 function App() {
 
@@ -31,11 +32,11 @@ function App() {
             isDesktop?
                 <Canvas></Canvas>
 
-           : <CanvasMobile></CanvasMobile>
-
-
-
-
+           :
+             window.innerWidth<window.innerHeight?
+                 <CanvasMobile></CanvasMobile>
+                 :
+                 <RotatePhone></RotatePhone>
   );
 }
 
