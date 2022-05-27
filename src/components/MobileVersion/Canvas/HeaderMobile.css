@@ -1,6 +1,8 @@
 .headerMobile{
     width: 100%;
     margin: 0 auto auto auto;
+    position: fixed;
+    z-index: 1;
 }
 
 .headerMobile .logoDiv{
