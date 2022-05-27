@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/atlas-portfolio/static/css/main.acb04dba.css",
-    "main.js": "/atlas-portfolio/static/js/main.a96e677a.js",
+    "main.css": "/atlas-portfolio/static/css/main.d671bf33.css",
+    "main.js": "/atlas-portfolio/static/js/main.2d9b3634.js",
     "static/js/937.315529ac.chunk.js": "/atlas-portfolio/static/js/937.315529ac.chunk.js",
     "static/js/787.99456852.chunk.js": "/atlas-portfolio/static/js/787.99456852.chunk.js",
     "static/media/layer1-icon.svg": "/atlas-portfolio/static/media/layer1-icon.bcfee550a3cde1d4980f620572a821b1.svg",
@@ -13,9 +13,12 @@
     "static/media/layer5.svg": "/atlas-portfolio/static/media/layer5.f7d6ebb9deaf50dac4ac45ccd26cc8c7.svg",
     "static/media/layer4.svg": "/atlas-portfolio/static/media/layer4.7be1705aafafac073c0128ec4fd55189.svg",
     "static/media/layer2.svg": "/atlas-portfolio/static/media/layer2.de3f759e2d4991bea1dffcbd0d50b82e.svg",
+    "static/media/award.svg": "/atlas-portfolio/static/media/award.b42efd12963a1785bef52986cec7ebbd.svg",
     "static/media/jquery-4.svg": "/atlas-portfolio/static/media/jquery-4.fcc480227fd31fecc887db807010bf1d.svg",
+    "static/media/rocket.svg": "/atlas-portfolio/static/media/rocket.24b37bc191e2e6b18f4368aefdff8267.svg",
     "static/media/java-4.svg": "/atlas-portfolio/static/media/java-4.42e6f1b499ddb4e5120a2efdb683f8b3.svg",
     "static/media/mysql-6.svg": "/atlas-portfolio/static/media/mysql-6.0ce77ca242c5952851eb4865fe0bb4c8.svg",
+    "static/media/goal.svg": "/atlas-portfolio/static/media/goal.e4f2ea22dc07d468467f8b4cd8334419.svg",
     "static/media/sass-1.svg": "/atlas-portfolio/static/media/sass-1.8aa78a8393470431c8036541f0708bd7.svg",
     "static/media/aws-2.svg": "/atlas-portfolio/static/media/aws-2.2c0da98109ea2f20779bc9d3555f856e.svg",
     "static/media/react-2.svg": "/atlas-portfolio/static/media/react-2.1d3b28f3afaf7104792735e955752166.svg",
@@ -32,13 +35,13 @@
     "static/media/css-3.svg": "/atlas-portfolio/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/html-1.svg": "/atlas-portfolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
     "static/media/javascript-1.svg": "/atlas-portfolio/static/media/javascript-1.b879f838faf1cb951d1c2230fd933a39.svg",
-    "main.acb04dba.css.map": "/atlas-portfolio/static/css/main.acb04dba.css.map",
-    "main.a96e677a.js.map": "/atlas-portfolio/static/js/main.a96e677a.js.map",
+    "main.d671bf33.css.map": "/atlas-portfolio/static/css/main.d671bf33.css.map",
+    "main.2d9b3634.js.map": "/atlas-portfolio/static/js/main.2d9b3634.js.map",
     "937.315529ac.chunk.js.map": "/atlas-portfolio/static/js/937.315529ac.chunk.js.map",
     "787.99456852.chunk.js.map": "/atlas-portfolio/static/js/787.99456852.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acb04dba.css",
-    "static/js/main.a96e677a.js"
+    "static/css/main.d671bf33.css",
+    "static/js/main.2d9b3634.js"
   ]
 }
