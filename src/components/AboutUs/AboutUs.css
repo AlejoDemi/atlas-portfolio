@@ -5,7 +5,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    overflow: auto;
+    overflow: scroll;
     position: relative;
     z-index: 1;
     background:#000723;
