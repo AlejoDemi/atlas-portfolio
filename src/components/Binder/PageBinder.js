@@ -5,8 +5,8 @@ import Techs from "../Techs/Techs";
 
 const PageBinder = () => {
     return (
-        <div style={{height:"300vh",display:"flex",justifyContent:"center",flexDirection:"column",background:"#000723"}}>
-            <div style={{height:"100vh"}}>
+        <div style={{height:"350vh",display:"flex",justifyContent:"center",flexDirection:"column",background:"#000723"}}>
+            <div style={{height:"120vh"}}>
                 <AboutUs></AboutUs>
             </div>
             <div style={{height:"80vh"}}>
