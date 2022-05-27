@@ -16,7 +16,7 @@ const CanvasMobile = () => {
 
 
         <div >
-            <div style={{width:"100vw",background:"none",height:"400vh",display:"flex",justifyContent:"center",textAlign:"center"}}>
+            <div style={{width:"100vw",background:"none",height:"400vh",display:"flex",justifyContent:"center",textAlign:"center",position:"relative"}}>
 
                 <ParticlesStars></ParticlesStars>
                 <div >

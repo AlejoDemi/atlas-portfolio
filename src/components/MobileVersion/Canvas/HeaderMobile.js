@@ -17,7 +17,7 @@ const HeaderMobile = () => {
     }
 
     return (
-        <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"1"}}>
+        <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"2"}}>
             <div className={"logoDiv"}>
                 <img src={logo} className={bright?"logoBright":"logo"}/>
             </div>
