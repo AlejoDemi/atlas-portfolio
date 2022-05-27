@@ -1,10 +1,9 @@
 import React from 'react';
 import "./AboutUs.css";
 
-
-
-
-// techs missing: prisma
+import rocketIcon from "../../assets/aboutUs/rocket.svg"
+import awardIcon from "../../assets/aboutUs/award.svg"
+import goalIcon from "../../assets/aboutUs/goal.svg"
 
 const AboutUs = () => {
 
@@ -19,7 +18,7 @@ const AboutUs = () => {
 
                 <div className={"card"}>
                     <div className={"image"}>
-                        <img src={"https://i.pinimg.com/originals/b3/2d/65/b32d659e36e50e459e00ed3957a10551.png"}/>
+                        <img src={rocketIcon}/>
 
                     </div>
                     <div className={"p"}>
@@ -30,7 +29,7 @@ const AboutUs = () => {
 
                 <div className={"card1"} >
                     <div className={"image"}>
-                        <img src={"https://cdn2.iconfinder.com/data/icons/elections-linear-black/2048/4552_-_Award-512.png"}/>
+                        <img src={awardIcon}/>
                     </div>
                     <div className={"p"}>
                         <p>Born and founded by excellence-driven Software Engineering students, with the philosophy of achieving top-tier quality in all aspects.
@@ -40,7 +39,7 @@ const AboutUs = () => {
 
                 <div className={"card"}>
                     <div className={"image"}>
-                        <img src={"https://www.iconpacks.net/icons/2/free-target-and-goal-icon-2852-thumb.png"}/>
+                        <img src={goalIcon}/>
                     </div>
                     <div className={"p"}>
                         <p>Our goal is to cater for the needs of our clients, for we believe that together, we will make the world move forward. </p>
