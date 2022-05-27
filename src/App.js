@@ -33,10 +33,7 @@ function App() {
                 <Canvas></Canvas>
 
            :
-             window.innerWidth<window.innerHeight?
-                 <CanvasMobile></CanvasMobile>
-                 :
-                 <RotatePhone></RotatePhone>
+                <CanvasMobile></CanvasMobile>
   );
 }
 
