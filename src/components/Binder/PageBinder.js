@@ -12,7 +12,7 @@ const PageBinder = () => {
             <div style={{height:"80vh"}}>
                 <Techs></Techs>
             </div>
-            <div style={{height:"100vh",display:"flex",justifyContent:"center"}}>
+            <div style={{height:"90vh",display:"flex",justifyContent:"center",zIndex:"3",background:"#1e295d"}}>
                 <ContactUs></ContactUs>
 
             </div>
