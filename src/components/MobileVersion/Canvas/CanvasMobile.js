@@ -20,11 +20,11 @@ const CanvasMobile = () => {
                 <ParticlesStars ></ParticlesStars>
                 <div >
                     <HeaderMobile></HeaderMobile>
-                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95,background:"  linear-gradient(180deg, rgba(0,7,35,1) 50%, rgba(42,41,71,1) 100%)"}}>
+                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95,background:"  linear-gradient(180deg, rgba(0,7,35,1) 90%, rgba(42,41,71,1) 100%)"}}>
                         <AboutUs></AboutUs>
 
                     </div>
-                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95,background:"linear-gradient(180deg, rgba(42,41,71,1) 35%, rgba(88,72,109,1) 100%)"}}>
+                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95,background:"linear-gradient(180deg, rgba(42,41,71,1) 95%, rgba(88,72,109,1) 100%)"}}>
                         <Techs></Techs>
                     </div>
                     <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.95,background:"linear-gradient(180deg, rgba(88,72,109,1) 35%, rgba(138,105,146,1) 100%)"}}>
