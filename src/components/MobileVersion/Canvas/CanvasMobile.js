@@ -16,19 +16,18 @@ const CanvasMobile = () => {
 
 
         <div >
-            <div style={{width:"100vw",background:"none",height:"400vh",display:"flex",justifyContent:"center",textAlign:"center",position:"relative"}}>
-
-                <ParticlesStars></ParticlesStars>
+            <div style={{width:"100vw",height:"400vh",display:"flex",justifyContent:"center",textAlign:"center",position:"relative"}}>
+                <ParticlesStars ></ParticlesStars>
                 <div >
                     <HeaderMobile></HeaderMobile>
-                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95, background:"#464564"}}>
+                    <div style={{height:"120vh",position:"relative",zIndex:1,opacity:0.95,background:"  linear-gradient(180deg, rgba(0,7,35,1) 50%, rgba(42,41,71,1) 100%)"}}>
                         <AboutUs></AboutUs>
 
                     </div>
-                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95,  background:"#706E90"}}>
+                    <div style={{height:"80vh",position:"relative",zIndex:1,opacity:0.95,background:"linear-gradient(180deg, rgba(42,41,71,1) 35%, rgba(88,72,109,1) 100%)"}}>
                         <Techs></Techs>
                     </div>
-                    <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.95, background:"#1E1F3B"}}>
+                    <div style={{height:"100vh",display:"flex",justifyContent:"center",position:"relative",zIndex:1,opacity:0.95,background:"linear-gradient(180deg, rgba(88,72,109,1) 35%, rgba(138,105,146,1) 100%)"}}>
                         <ContactUs></ContactUs>
 
                     </div>

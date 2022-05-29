@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import logo from "../../../assets/Canvas/logo.png";
 import "./HeaderMobile.css"
+import {ParticlesStars} from "../../Canvas/Particles";
 
 const HeaderMobile = () => {
     const [bright ,setBright] = useState(true);
@@ -18,6 +19,7 @@ const HeaderMobile = () => {
 
     return (
         <div className={"headerMobile"} style={{position:"relative",height:"100vh",zIndex:"2"}}>
+
             <div className={"logoDiv"}>
                 <img src={logo} className={bright?"logoBright":"logo"}/>
             </div>
