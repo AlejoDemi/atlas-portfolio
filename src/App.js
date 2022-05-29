@@ -29,7 +29,7 @@ function App() {
       timer?
           <Spinner></Spinner>
           :
-            isDesktop?
+            isDesktop && window.innerWidth<window.innerHeight?
                 <Canvas></Canvas>
 
            :
