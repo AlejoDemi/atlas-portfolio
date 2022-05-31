@@ -1,6 +1,6 @@
 .contactUsBox{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     height: 60vh;
     width: 40vw;
     margin: auto;
@@ -13,14 +13,14 @@
 ;
 }
 
-.contactUsBox .left{
-    height: 100%;
-    width: 50%;
+.contactUsBox .title{
+    height: 10%;
+    width: 100%;
     display: flex;
     text-align: center;
     justify-content: center;
     color: #FFB4D8;
-    flex-direction: column;
+
 }
 
 .left .message{
@@ -34,24 +34,11 @@
     font-size: 20px;
 }
 
-.contactUsBox .title{
-    height:50%;
-    margin: auto;
-    
-}
-
-
-
-.title h1{
-    font-size: 200%;
-    align-self: flex-start;
-}
-
 .contactUsBox .form{
     display: flex;
     flex-direction: column;
-    height:100% ;
-    width: 50%;
+    height:70% ;
+    width: 100%;
     background: none;
 }
 

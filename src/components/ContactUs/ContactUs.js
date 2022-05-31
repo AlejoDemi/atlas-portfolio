@@ -52,20 +52,8 @@ const ContactUs = (effect, deps) => {
 
   return (
           <div className={"contactUsBox"} style={{zIndex:"1"}} >
-              <div className={"left"}>
-                  <div className={"title"}>
-                    <h1>CONTACT <br/> US</h1>
-                  </div>
-              <div className={"message"}>
-                 {loading?
-                     <PacmanLoader  color={"#E392BE"}  size={20} />:
-                     showError?
-                         <span style={{color:"red"}}>You must complete all the obligatory fields (*)</span> :
-                         showSuccess?<span style={{color:"#78D2AB"}}>Thanks for choosing us, we will contact you as soon as possible!</span>:
-                             null}
-             </div>
-
-              </div>
+              <div style={{height:"10%"}}></div>
+             <div className={"title"}>CONTACT US</div>
               <form ref={form} onSubmit={sendEmail} className={"form"}>
                  <div className={"text"}>
                      <input name = "user_name" className={"input"} style={{color:showError && fullName===""?"red":"white" }} type="text" placeholder={"Full Name (*)"} onChange={e=>setFullName(e.target.value)}/>
